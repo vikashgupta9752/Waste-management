@@ -1,0 +1,15 @@
+{
+  "name": "EcoWaste Smart City",
+  "short_name": "EcoWaste",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1abc9c",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2830/2830305.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
