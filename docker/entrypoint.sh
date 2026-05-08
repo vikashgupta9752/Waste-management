@@ -20,6 +20,10 @@ fi
 echo "📋 Running database migrations..."
 php artisan migrate --force
 
+# Seed default data (admin, driver, citizen accounts)
+echo "🌱 Seeding database..."
+php artisan db:seed --force
+
 # Cache configuration for performance
 echo "⚡ Caching configuration..."
 php artisan config:cache
