@@ -36,6 +36,7 @@ RUN apk add --no-cache \
     nginx \
     supervisor \
     sqlite \
+    sqlite-dev \
     libpq-dev \
     oniguruma-dev \
     libxml2-dev \
